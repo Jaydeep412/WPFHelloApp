@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" 
+                   Margin="106,71,77,227" 
+                   TextWrapping="Wrap" 
+                   Text="Slect a message option and then choose the Display button."
+                   RenderTransformOrigin="4.08,2.312"
+                   VerticalAlignment="Center" Width="334" Height="22" />
+        <RadioButton x:Name="Hello" Content="Hello" HorizontalAlignment="Left" Margin="128,137,0,0" VerticalAlignment="Top" Width="90"/>
+        <RadioButton x:Name="Goodbye" Content="Goodbye" HorizontalAlignment="Left" Margin="304,137,0,0" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Left" Margin="215,192,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
 
     </Grid>
 </Window>

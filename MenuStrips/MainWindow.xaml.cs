@@ -24,5 +24,20 @@ namespace MenuStrips
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(Hello.IsChecked == true)
+            {
+                MessageBox.Show("Hello");
+            }
+            else
+            {
+                Goodbye.IsChecked = true;
+                MessageBox.Show("Goodbye");
+            }
+
+
+        }
     }
 }
